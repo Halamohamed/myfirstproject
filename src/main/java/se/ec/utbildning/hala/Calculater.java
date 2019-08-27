@@ -18,16 +18,16 @@ public class Calculater {
             double number2 = scanner.nextDouble();
             switch (select) {
                 case 1:
-                   System.out.println(addition(number1, number2));
+                   System.out.println(number1+" + "+ number2 + " = " + addition(number1, number2));
                     break;
                 case 2:
-                    System.out.println(subtraction(number1, number2));
+                    System.out.println(number1+" - "+ number2 + " = " +subtraction(number1, number2));
                     break;
                 case 3:
-                    System.out.println(multiplication(number1, number2));
+                    System.out.println(number1+" * "+ number2 + " = " +multiplication(number1, number2));
                     break;
                 case 4:
-                    System.out.println(division(number1, number2));
+                    System.out.println(number1+" / "+ number2 + " = " +division(number1, number2));
                     break;
                 default:
                     System.out.println("you have entered wrong number");
